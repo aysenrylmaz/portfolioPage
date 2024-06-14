@@ -13,8 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/portfolioPage",
-            "index": "src/index.html",
+            "outputPath": "docs",
+            "index": "index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
@@ -35,6 +35,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "baseHref": "/portfolioPage/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
