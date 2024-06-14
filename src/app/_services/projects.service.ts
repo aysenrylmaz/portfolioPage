@@ -11,9 +11,9 @@ export class ProjectsService {
       id: 0,
       name: 'Sample Python Project',
       pictures: [
-        'https://github.com/aysenrylmaz/portfolioPage/blob/master/docs/assets/kind1.jpg',
-        'https://github.com/aysenrylmaz/portfolioPage/blob/master/docs/assets/kind3.jpg',
-        'https://github.com/aysenrylmaz/portfolioPage/blob/master/docs/assets/kind4.jpg',
+        'https://github.com/aysenrylmaz/portfolioPage/blob/master/docs/assets/kind1.jpg?raw=true',
+        'https://github.com/aysenrylmaz/portfolioPage/blob/master/docs/assets/kind3.jpg?raw=true',
+        'https://github.com/aysenrylmaz/portfolioPage/blob/master/docs/assets/kind4.jpg?raw=true',
       ],
       projectLink: '//www.github.com',
       summary: 'Python project that analyzes stock market data.',
